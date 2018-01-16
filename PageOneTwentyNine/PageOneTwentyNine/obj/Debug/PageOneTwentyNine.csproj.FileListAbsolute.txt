@@ -1,0 +1,10 @@
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.exe.config
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.exe
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.pdb
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csprojResolveAssemblyReference.cache
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.Form1.resources
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.Properties.Resources.resources
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csproj.GenerateResource.Cache
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csproj.CoreCompileInputs.cache
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.exe
+C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.pdb
