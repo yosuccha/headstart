@@ -8,3 +8,13 @@ C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\Pa
 C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csproj.CoreCompileInputs.cache
 C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.exe
 C:\Users\Stratus07\source\repos\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.pdb
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.exe.config
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.exe
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\bin\Debug\PageOneTwentyNine.pdb
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csprojResolveAssemblyReference.cache
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.Form1.resources
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.Properties.Resources.resources
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csproj.GenerateResource.Cache
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.csproj.CoreCompileInputs.cache
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.exe
+C:\Users\rlaff\OneDrive\Documents\headstart\PageOneTwentyNine\PageOneTwentyNine\obj\Debug\PageOneTwentyNine.pdb

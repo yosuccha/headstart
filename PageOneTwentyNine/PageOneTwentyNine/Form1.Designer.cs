@@ -31,67 +31,97 @@
             this.joesCashLabel = new System.Windows.Forms.Label();
             this.bobsCashLabel = new System.Windows.Forms.Label();
             this.bankCashLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bankToJoeButton = new System.Windows.Forms.Button();
+            this.bobToBankButton = new System.Windows.Forms.Button();
+            this.joeToBobButton = new System.Windows.Forms.Button();
+            this.bobToJoeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // joesCashLabel
             // 
             this.joesCashLabel.AutoSize = true;
-            this.joesCashLabel.Location = new System.Drawing.Point(63, 50);
+            this.joesCashLabel.Location = new System.Drawing.Point(84, 62);
+            this.joesCashLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.joesCashLabel.Name = "joesCashLabel";
-            this.joesCashLabel.Size = new System.Drawing.Size(44, 13);
+            this.joesCashLabel.Size = new System.Drawing.Size(58, 17);
             this.joesCashLabel.TabIndex = 0;
             this.joesCashLabel.Text = "Joe has";
             // 
             // bobsCashLabel
             // 
             this.bobsCashLabel.AutoSize = true;
-            this.bobsCashLabel.Location = new System.Drawing.Point(63, 76);
+            this.bobsCashLabel.Location = new System.Drawing.Point(84, 94);
+            this.bobsCashLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bobsCashLabel.Name = "bobsCashLabel";
-            this.bobsCashLabel.Size = new System.Drawing.Size(46, 13);
+            this.bobsCashLabel.Size = new System.Drawing.Size(60, 17);
             this.bobsCashLabel.TabIndex = 1;
             this.bobsCashLabel.Text = "Bob has";
             // 
             // bankCashLabel
             // 
             this.bankCashLabel.AutoSize = true;
-            this.bankCashLabel.Location = new System.Drawing.Point(63, 107);
+            this.bankCashLabel.Location = new System.Drawing.Point(84, 132);
+            this.bankCashLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bankCashLabel.Name = "bankCashLabel";
-            this.bankCashLabel.Size = new System.Drawing.Size(73, 13);
+            this.bankCashLabel.Size = new System.Drawing.Size(95, 17);
             this.bankCashLabel.TabIndex = 2;
             this.bankCashLabel.Text = "The bank has";
             // 
-            // button1
+            // bankToJoeButton
             // 
-            this.button1.Location = new System.Drawing.Point(13, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Give $10 to Joe";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bankToJoeButton.Location = new System.Drawing.Point(19, 166);
+            this.bankToJoeButton.Margin = new System.Windows.Forms.Padding(4);
+            this.bankToJoeButton.Name = "bankToJoeButton";
+            this.bankToJoeButton.Size = new System.Drawing.Size(100, 50);
+            this.bankToJoeButton.TabIndex = 3;
+            this.bankToJoeButton.Text = "Give $10 to Joe";
+            this.bankToJoeButton.UseVisualStyleBackColor = true;
+            this.bankToJoeButton.Click += new System.EventHandler(this.bankToJoeButton_Click);
             // 
-            // button2
+            // bobToBankButton
             // 
-            this.button2.Location = new System.Drawing.Point(95, 174);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 42);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Receive $5 from Bob";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bobToBankButton.Location = new System.Drawing.Point(136, 166);
+            this.bobToBankButton.Margin = new System.Windows.Forms.Padding(4);
+            this.bobToBankButton.Name = "bobToBankButton";
+            this.bobToBankButton.Size = new System.Drawing.Size(100, 52);
+            this.bobToBankButton.TabIndex = 4;
+            this.bobToBankButton.Text = "Receive $5 from Bob";
+            this.bobToBankButton.UseVisualStyleBackColor = true;
+            this.bobToBankButton.Click += new System.EventHandler(this.bobToBankButton_Click);
+            // 
+            // joeToBobButton
+            // 
+            this.joeToBobButton.Location = new System.Drawing.Point(19, 235);
+            this.joeToBobButton.Name = "joeToBobButton";
+            this.joeToBobButton.Size = new System.Drawing.Size(100, 49);
+            this.joeToBobButton.TabIndex = 5;
+            this.joeToBobButton.Text = "Joe gives $10 to Bob";
+            this.joeToBobButton.UseVisualStyleBackColor = true;
+            this.joeToBobButton.Click += new System.EventHandler(this.joeToBobButton_Click);
+            // 
+            // bobToJoeButton
+            // 
+            this.bobToJoeButton.Location = new System.Drawing.Point(136, 235);
+            this.bobToJoeButton.Name = "bobToJoeButton";
+            this.bobToJoeButton.Size = new System.Drawing.Size(100, 49);
+            this.bobToJoeButton.TabIndex = 6;
+            this.bobToJoeButton.Text = "Bob gives $5 to Joe";
+            this.bobToJoeButton.UseVisualStyleBackColor = true;
+            this.bobToJoeButton.Click += new System.EventHandler(this.bobToJoeButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(300, 321);
+            this.Controls.Add(this.bobToJoeButton);
+            this.Controls.Add(this.joeToBobButton);
+            this.Controls.Add(this.bobToBankButton);
+            this.Controls.Add(this.bankToJoeButton);
             this.Controls.Add(this.bankCashLabel);
             this.Controls.Add(this.bobsCashLabel);
             this.Controls.Add(this.joesCashLabel);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Fun with Joe and Bob";
             this.ResumeLayout(false);
@@ -104,8 +134,10 @@
         private System.Windows.Forms.Label joesCashLabel;
         private System.Windows.Forms.Label bobsCashLabel;
         private System.Windows.Forms.Label bankCashLabel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bankToJoeButton;
+        private System.Windows.Forms.Button bobToBankButton;
+        private System.Windows.Forms.Button joeToBobButton;
+        private System.Windows.Forms.Button bobToJoeButton;
     }
 }
 

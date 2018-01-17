@@ -38,7 +38,7 @@ namespace PageOneTwentyNine
            }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bankToJoeButton_Click(object sender, EventArgs e)
         {
             if (bank >= 10)
             {
@@ -52,13 +52,24 @@ namespace PageOneTwentyNine
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void bobToBankButton_Click(object sender, EventArgs e)
         {
             bank += bob.GiveCash(5);
             UpdateForm();
         }
-        
 
+        private void joeToBobButton_Click(object sender, EventArgs e)
+        {
+            joe.GiveCash(bob.ReceiveCash(10));
+            ;
+            UpdateForm();
+        }
 
+        private void bobToJoeButton_Click(object sender, EventArgs e)
+        {
+            bob.GiveCash(joe.ReceiveCash(5));
+            ;
+            UpdateForm();
+        }
     }
 }
